@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C2B67BC92B24B144DC43967 /* Pods_TinderPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B086A36E466AEA3DCDE32009 /* Pods_TinderPractice.framework */; };
 		FCBCDB2B1CD1C5AC003A23B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBCDB2A1CD1C5AC003A23B6 /* AppDelegate.swift */; };
 		FCBCDB2D1CD1C5AC003A23B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBCDB2C1CD1C5AC003A23B6 /* ViewController.swift */; };
 		FCBCDB301CD1C5AC003A23B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCBCDB2E1CD1C5AC003A23B6 /* Main.storyboard */; };
@@ -34,6 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5025D65021CD4FC084A52E0D /* Pods-TinderPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TinderPractice/Pods-TinderPractice.debug.xcconfig"; sourceTree = "<group>"; };
+		56134B747A056A84C18A7BBB /* Pods-TinderPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderPractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-TinderPractice/Pods-TinderPractice.release.xcconfig"; sourceTree = "<group>"; };
+		B086A36E466AEA3DCDE32009 /* Pods_TinderPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinderPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC801F681CD1D06C0088F5EB /* TinderPractice-Briging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TinderPractice-Briging-Header.h"; sourceTree = "<group>"; };
 		FCBCDB271CD1C5AC003A23B6 /* TinderPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCBCDB2A1CD1C5AC003A23B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCBCDB2C1CD1C5AC003A23B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C2B67BC92B24B144DC43967 /* Pods_TinderPractice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +80,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C81D707BB68BD88736BCE7CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5025D65021CD4FC084A52E0D /* Pods-TinderPractice.debug.xcconfig */,
+				56134B747A056A84C18A7BBB /* Pods-TinderPractice.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E356B13CA983287851704D14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B086A36E466AEA3DCDE32009 /* Pods_TinderPractice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FCBCDB1E1CD1C5AC003A23B6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +104,8 @@
 				FCBCDB3E1CD1C5AC003A23B6 /* TinderPracticeTests */,
 				FCBCDB491CD1C5AC003A23B6 /* TinderPracticeUITests */,
 				FCBCDB281CD1C5AC003A23B6 /* Products */,
+				C81D707BB68BD88736BCE7CD /* Pods */,
+				E356B13CA983287851704D14 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +124,7 @@
 			children = (
 				FCBCDB2A1CD1C5AC003A23B6 /* AppDelegate.swift */,
 				FCBCDB2C1CD1C5AC003A23B6 /* ViewController.swift */,
+				FC801F681CD1D06C0088F5EB /* TinderPractice-Briging-Header.h */,
 				FCBCDB2E1CD1C5AC003A23B6 /* Main.storyboard */,
 				FCBCDB311CD1C5AC003A23B6 /* Assets.xcassets */,
 				FCBCDB331CD1C5AC003A23B6 /* LaunchScreen.storyboard */,
@@ -132,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCBCDB4F1CD1C5AC003A23B6 /* Build configuration list for PBXNativeTarget "TinderPractice" */;
 			buildPhases = (
+				1766E4CE1388DB5CFFC81C9A /* Check Pods Manifest.lock */,
 				FCBCDB231CD1C5AC003A23B6 /* Sources */,
 				FCBCDB241CD1C5AC003A23B6 /* Frameworks */,
 				FCBCDB251CD1C5AC003A23B6 /* Resources */,
+				ED048D0DE2754CBE6A2E2D38 /* Embed Pods Frameworks */,
+				A0FBAE5DAE22016F1BD62291 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +279,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1766E4CE1388DB5CFFC81C9A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0FBAE5DAE22016F1BD62291 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TinderPractice/Pods-TinderPractice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED048D0DE2754CBE6A2E2D38 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TinderPractice/Pods-TinderPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FCBCDB231CD1C5AC003A23B6 /* Sources */ = {
@@ -399,23 +476,27 @@
 		};
 		FCBCDB501CD1C5AC003A23B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5025D65021CD4FC084A52E0D /* Pods-TinderPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TinderPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "satoshi-kosuge.TinderPractice";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TinderPractice/TinderPractice-Briging-Header.h";
 			};
 			name = Debug;
 		};
 		FCBCDB511CD1C5AC003A23B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56134B747A056A84C18A7BBB /* Pods-TinderPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TinderPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "satoshi-kosuge.TinderPractice";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TinderPractice/TinderPractice-Briging-Header.h";
 			};
 			name = Release;
 		};
@@ -484,6 +565,7 @@
 				FCBCDB511CD1C5AC003A23B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCBCDB521CD1C5AC003A23B6 /* Build configuration list for PBXNativeTarget "TinderPracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +574,7 @@
 				FCBCDB541CD1C5AC003A23B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCBCDB551CD1C5AC003A23B6 /* Build configuration list for PBXNativeTarget "TinderPracticeUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +583,7 @@
 				FCBCDB571CD1C5AC003A23B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
