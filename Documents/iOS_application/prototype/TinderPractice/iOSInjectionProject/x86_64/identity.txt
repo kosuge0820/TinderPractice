@@ -1,0 +1,2 @@
+/Users/kosuge_satoshi/Library/Developer/Xcode/DerivedData/TinderPractice-bczpdyslrdkmjlavmgtbzkpeeyxo/Build/Products/Debug-iphonesimulator/TinderPractice.app
+
