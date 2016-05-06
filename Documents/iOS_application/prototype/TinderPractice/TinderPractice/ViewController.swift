@@ -33,7 +33,7 @@ final class ViewController: UIViewController, MDCSwipeToChooseDelegate {
         let frame = CGRect(x: 0, y: 0, width: 300, height: 500)
         let view:MDCSwipeToChooseView = MDCSwipeToChooseView(frame: frame, options:options)
         view.center = self.view.center
-        view.imageView.image = UIImage(named:"satoshi.jpg")
+        view.imageView.image = UIImage(named:"cat.jpg")
         view.imageView.contentMode = UIViewContentMode.ScaleAspectFill
         self.view.addSubview(view)
         }

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8C2B67BC92B24B144DC43967 /* Pods_TinderPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B086A36E466AEA3DCDE32009 /* Pods_TinderPractice.framework */; };
-		FC45BF231CDB89AF000F4058 /* satoshi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC45BF221CDB89AF000F4058 /* satoshi.jpg */; };
 		FCBCDB2B1CD1C5AC003A23B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBCDB2A1CD1C5AC003A23B6 /* AppDelegate.swift */; };
 		FCBCDB2D1CD1C5AC003A23B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBCDB2C1CD1C5AC003A23B6 /* ViewController.swift */; };
 		FCBCDB301CD1C5AC003A23B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCBCDB2E1CD1C5AC003A23B6 /* Main.storyboard */; };
@@ -16,6 +15,7 @@
 		FCBCDB351CD1C5AC003A23B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCBCDB331CD1C5AC003A23B6 /* LaunchScreen.storyboard */; };
 		FCBCDB401CD1C5AC003A23B6 /* TinderPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBCDB3F1CD1C5AC003A23B6 /* TinderPracticeTests.swift */; };
 		FCBCDB4B1CD1C5AC003A23B6 /* TinderPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBCDB4A1CD1C5AC003A23B6 /* TinderPracticeUITests.swift */; };
+		FCD49DDD1CDC7DC500C0A559 /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FCD49DDC1CDC7DC500C0A559 /* cat.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 		5025D65021CD4FC084A52E0D /* Pods-TinderPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TinderPractice/Pods-TinderPractice.debug.xcconfig"; sourceTree = "<group>"; };
 		56134B747A056A84C18A7BBB /* Pods-TinderPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderPractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-TinderPractice/Pods-TinderPractice.release.xcconfig"; sourceTree = "<group>"; };
 		B086A36E466AEA3DCDE32009 /* Pods_TinderPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinderPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC45BF221CDB89AF000F4058 /* satoshi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = satoshi.jpg; path = ../../../../../Downloads/satoshi.jpg; sourceTree = "<group>"; };
 		FC801F681CD1D06C0088F5EB /* TinderPractice-Briging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TinderPractice-Briging-Header.h"; sourceTree = "<group>"; };
 		FCBCDB271CD1C5AC003A23B6 /* TinderPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCBCDB2A1CD1C5AC003A23B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +53,7 @@
 		FCBCDB461CD1C5AC003A23B6 /* TinderPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCBCDB4A1CD1C5AC003A23B6 /* TinderPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderPracticeUITests.swift; sourceTree = "<group>"; };
 		FCBCDB4C1CD1C5AC003A23B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCD49DDC1CDC7DC500C0A559 /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat.jpg; path = ../../../../../Downloads/cat.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,10 +128,10 @@
 				FCBCDB2C1CD1C5AC003A23B6 /* ViewController.swift */,
 				FC801F681CD1D06C0088F5EB /* TinderPractice-Briging-Header.h */,
 				FCBCDB2E1CD1C5AC003A23B6 /* Main.storyboard */,
-				FC45BF221CDB89AF000F4058 /* satoshi.jpg */,
 				FCBCDB311CD1C5AC003A23B6 /* Assets.xcassets */,
 				FCBCDB331CD1C5AC003A23B6 /* LaunchScreen.storyboard */,
 				FCBCDB361CD1C5AC003A23B6 /* Info.plist */,
+				FCD49DDC1CDC7DC500C0A559 /* cat.jpg */,
 			);
 			path = TinderPractice;
 			sourceTree = "<group>";
@@ -262,8 +262,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCBCDB351CD1C5AC003A23B6 /* LaunchScreen.storyboard in Resources */,
-				FC45BF231CDB89AF000F4058 /* satoshi.jpg in Resources */,
 				FCBCDB321CD1C5AC003A23B6 /* Assets.xcassets in Resources */,
+				FCD49DDD1CDC7DC500C0A559 /* cat.jpg in Resources */,
 				FCBCDB301CD1C5AC003A23B6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
